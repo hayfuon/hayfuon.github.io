@@ -1,4 +1,21 @@
 {
   "version": 2,
-  "items": []
+  "items": [
+    {
+      "id": "c3e73327",
+      "sha256": "c3e733270ca2ba814174f9b7351b3debf8779f30768a9ffa76f2093885754fa5",
+      "title": "BYD VehicleModelLab",
+      "description": "",
+      "originalName": "BYD-VehicleModelLab-v0.1.0-universal-release.apk",
+      "downloadName": "BYD-VehicleModelLab-v0.1.0-universal-release.apk",
+      "file": "c3e733270ca2ba81.apk",
+      "url": "/resources/downloads/c3e733270ca2ba81.apk",
+      "platform": "Android",
+      "icon": "",
+      "bytes": 23594587,
+      "sizeLabel": "23 MB",
+      "ext": "apk",
+      "source": "repo"
+    }
+  ]
 }
