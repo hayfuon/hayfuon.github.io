@@ -2,6 +2,22 @@
   "version": 2,
   "items": [
     {
+      "id": "f99bbba0",
+      "sha256": "f99bbba034adf739b3f8e2e9ec0f86ea1f7cf96826ec6b6950feb223e5fa5596",
+      "title": "换挡音效 1.0.0 release",
+      "description": "",
+      "originalName": "换挡音效-1.0.0-release.apk",
+      "downloadName": "换挡音效-1.0.0-release.apk",
+      "file": "f99bbba034adf739.apk",
+      "url": "/resources/downloads/f99bbba034adf739.apk",
+      "platform": "Android",
+      "icon": "/resources/icons/b3286499048cebf0.png",
+      "bytes": 2593372,
+      "sizeLabel": "2.5 MB",
+      "ext": "apk",
+      "source": "repo"
+    },
+    {
       "id": "c3e73327",
       "sha256": "c3e733270ca2ba814174f9b7351b3debf8779f30768a9ffa76f2093885754fa5",
       "title": "BYD VehicleModelLab",
