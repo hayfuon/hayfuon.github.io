@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="/favicon.svg" />
+    <title>HayFuon</title>
+    <script>try{var m=localStorage.getItem('haygit.site.theme');document.documentElement.dataset.theme=m==='light'||m==='dark'?m:(matchMedia('(prefers-color-scheme: dark)').matches?'dark':'light')}catch(e){}</script>
+    <style>
+      body{margin:0}#site-boot{position:fixed;inset:0;z-index:9999;display:grid;place-items:center;background:#f8fafc}
+      :root[data-theme=dark] #site-boot{background:#10151f}
+      #site-boot .ant-spin{display:inline-flex;color:#1677ff}
+      #site-boot .ant-spin-dot-holder{display:inline-block;width:1em;height:1em;font-size:32px;line-height:1;transform-origin:50% 50%}
+      #site-boot .ant-spin-dot{position:relative;display:inline-block;width:1em;height:1em;font-size:32px}
+      #site-boot .ant-spin-dot-spin{transform:rotate(45deg);animation:ant-rotate 1.2s linear infinite}
+      #site-boot .ant-spin-dot-item{position:absolute;display:block;width:calc((32px - 2px)/2);height:calc((32px - 2px)/2);background:currentColor;border-radius:100%;transform:scale(.75);transform-origin:50% 50%;opacity:.3;animation:ant-spin-move 1s linear infinite alternate}
+      #site-boot .ant-spin-dot-item:nth-child(1){top:0;left:0;animation-delay:0s}#site-boot .ant-spin-dot-item:nth-child(2){top:0;right:0;animation-delay:.4s}
+      #site-boot .ant-spin-dot-item:nth-child(3){right:0;bottom:0;animation-delay:.8s}#site-boot .ant-spin-dot-item:nth-child(4){bottom:0;left:0;animation-delay:1.2s}
+      @keyframes ant-rotate{to{transform:rotate(405deg)}}@keyframes ant-spin-move{to{opacity:1}}
+      @media(prefers-reduced-motion:reduce){#site-boot .ant-spin-dot-spin,#site-boot .ant-spin-dot-item{animation:none}}
+    </style>
+    <script type="module" crossorigin src="/assets/index-BWHrXUdG.js"></script>
+    <link rel="stylesheet" crossorigin href="/assets/index-CxrQRgdP.css">
+  </head>
+  <body>
+    <div id="site-boot" role="status" aria-label="加载中"><div class="ant-spin ant-spin-lg ant-spin-spinning ant-spin-section" aria-busy="true"><span class="ant-spin-dot-holder"><span class="ant-spin-dot ant-spin-dot-spin"><i class="ant-spin-dot-item"></i><i class="ant-spin-dot-item"></i><i class="ant-spin-dot-item"></i><i class="ant-spin-dot-item"></i></span></span></div></div>
+    <div id="root"></div>
+  </body>
+</html>

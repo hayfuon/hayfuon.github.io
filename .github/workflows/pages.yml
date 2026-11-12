@@ -1,0 +1,34 @@
+name: 部署站点产物
+"on":
+  push:
+    branches: ["main"]
+    paths-ignore:
+      - 'resources/**'
+      - 'icons/**'
+  workflow_dispatch:
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+concurrency:
+  group: pages
+  cancel-in-progress: false
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+      - name: 收集站点文件
+        run: |
+          mkdir -p _site
+          for path in index.html 404.html favicon.svg site.json downloads.json haygit.site.json haygit.downloads.json haygit.content.json assets download blog docs content resources icons; do
+            if [ -e "$path" ]; then cp -R "$path" _site/; fi
+          done
+      - uses: actions/upload-pages-artifact@v4
+        with:
+          path: _site
+      - id: deployment
+        uses: actions/deploy-pages@v4
