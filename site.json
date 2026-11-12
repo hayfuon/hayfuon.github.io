@@ -1,0 +1,65 @@
+{
+  "announcements": [],
+  "blocks": [],
+  "copyright": "Copyright © 2026 HayFuon",
+  "description": "一个下载站...",
+  "features": {
+    "blog": false,
+    "docs": false
+  },
+  "homeLinks": [],
+  "nav": [
+    {
+      "href": "/",
+      "label": "首页"
+    },
+    {
+      "href": "/download",
+      "label": "下载"
+    }
+  ],
+  "repo": "hayfuon/hayfuon.github.io",
+  "title": "HayFuon",
+  "ui": {
+    "announcementsTitle": "最新动态",
+    "articleToc": "本页目录",
+    "backHome": "返回首页",
+    "backToList": "返回列表",
+    "blogLabel": "博客",
+    "blogTitle": "博客",
+    "browserDownload": "浏览器下载",
+    "cancelDownload": "取消下载",
+    "closeDownload": "关闭",
+    "contentPathError": "正文地址无效",
+    "contentReadError": "无法读取正文",
+    "darkLabel": "深色模式",
+    "docsLabel": "文档",
+    "docsMenuLabel": "文档目录",
+    "docsTitle": "文档",
+    "downloadButton": "下载",
+    "downloadCancelled": "已取消下载",
+    "downloadComplete": "下载完成",
+    "downloadFailed": "下载失败",
+    "downloadIncomplete": "下载未完成，请重试",
+    "downloadKeepOpen": "请勿关闭，否则可能丢失下载进度",
+    "downloadLabel": "下载",
+    "downloadLoadError": "无法加载下载目录",
+    "downloadNotFound": "找不到这个下载项",
+    "downloadReadError": "无法读取下载文件",
+    "downloadStarted": "已开始下载",
+    "downloadTitle": "下载",
+    "downloadUnavailable": "下载地址不可用",
+    "downloadingLabel": "正在下载",
+    "emptyContent": "这里暂时没有内容",
+    "emptyDownloads": "暂无可用安装包",
+    "homeDescription": "",
+    "homeLabel": "首页",
+    "homeTitle": "下载站",
+    "largeDownload": "文件较大，请使用浏览器下载",
+    "lightLabel": "浅色模式",
+    "menuLabel": "打开菜单",
+    "notFoundDescription": "这个地址没有对应的页面。",
+    "notFoundTitle": "页面不存在",
+    "searchPlaceholder": "搜索应用或文件名"
+  }
+}
