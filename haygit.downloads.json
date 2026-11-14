@@ -2,6 +2,22 @@
   "version": 2,
   "items": [
     {
+      "id": "675f80d2",
+      "sha256": "675f80d24ba6a3b6ff517375a81a464cf42295f596cf621a652c7da336eade56",
+      "title": "换挡音效 1.0.1 release",
+      "description": "",
+      "originalName": "换挡音效-1.0.1-release.apk",
+      "downloadName": "换挡音效-1.0.1-release.apk",
+      "file": "675f80d24ba6a3b6.apk",
+      "url": "/resources/downloads/675f80d24ba6a3b6.apk",
+      "platform": "Android",
+      "icon": "/resources/icons/b3286499048cebf0.png",
+      "bytes": 3095332,
+      "sizeLabel": "3.0 MB",
+      "ext": "apk",
+      "source": "repo"
+    },
+    {
       "id": "f99bbba0",
       "sha256": "f99bbba034adf739b3f8e2e9ec0f86ea1f7cf96826ec6b6950feb223e5fa5596",
       "title": "换挡音效 1.0.0 release",
