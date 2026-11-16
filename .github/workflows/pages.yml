@@ -24,8 +24,8 @@ jobs:
       - name: 收集站点文件
         run: |
           mkdir -p _site
-          for path in index.html 404.html favicon.svg site.json downloads.json haygit.site.json haygit.downloads.json haygit.content.json assets download blog docs content resources icons; do
-            if [ -e "$path" ]; then cp -R "$path" _site/; fi
+          for path in index.html 404.html favicon.svg site.json haygit.site.json haygit.content.json assets apps blog docs content resources/attachments resources/icons icons; do
+            if [ -e "$path" ]; then mkdir -p "_site/$(dirname "$path")"; cp -R "$path" "_site/$path"; fi
           done
       - uses: actions/upload-pages-artifact@v4
         with:
