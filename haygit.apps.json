@@ -11,7 +11,7 @@
             {
               "label": "下载",
               "mode": "direct",
-              "url": "https://wwbwc.lanzouq.com/iwQFK4g68x4h"
+              "url": "https://pan.baidu.com/s/1NcQkP_6yTV7phG_rSeKZcg?pwd=D6Uo"
             }
           ],
           "platform": "Android",
@@ -20,6 +20,7 @@
       ]
     },
     {
+      "hidden": true,
       "id": "bydvehicle",
       "title": "BYD-VehicleModelLab",
       "versions": [
