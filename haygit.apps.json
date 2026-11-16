@@ -1,24 +1,6 @@
 {
   "apps": [
     {
-      "id": "bydvehicle",
-      "title": "BYD-VehicleModelLab",
-      "versions": [
-        {
-          "current": true,
-          "links": [
-            {
-              "label": "下载",
-              "mode": "direct",
-              "url": "https://wwbwc.lanzouq.com/i27894g5uwkd"
-            }
-          ],
-          "platform": "Android",
-          "version": "1.0.0"
-        }
-      ]
-    },
-    {
       "icon": "/resources/attachments/b3286499048cebf06ded6feb8725aa862cbb0272af35e2b52e74a703377dbb4f.png",
       "id": "audioassistant",
       "title": "换挡音效",
@@ -34,6 +16,24 @@
           ],
           "platform": "Android",
           "version": "1.0.2"
+        }
+      ]
+    },
+    {
+      "id": "bydvehicle",
+      "title": "BYD-VehicleModelLab",
+      "versions": [
+        {
+          "current": true,
+          "links": [
+            {
+              "label": "下载",
+              "mode": "direct",
+              "url": "https://wwbwc.lanzouq.com/i27894g5uwkd"
+            }
+          ],
+          "platform": "Android",
+          "version": "1.0.0"
         }
       ]
     }
