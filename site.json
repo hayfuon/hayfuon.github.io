@@ -16,12 +16,19 @@
     {
       "href": "/download/",
       "label": "下载"
+    },
+    {
+      "href": "https://github.com/hayfuon",
+      "label": "仓库"
     }
   ],
   "repo": "hayfuon/hayfuon.github.io",
   "title": "HayFuon",
   "ui": {
     "announcementsTitle": "最新动态",
+    "appsLabel": "下载",
+    "appsLoadError": "无法加载应用目录",
+    "appsTitle": "下载",
     "articleToc": "本页目录",
     "backHome": "返回首页",
     "backToList": "返回列表",
@@ -30,8 +37,10 @@
     "browserDownload": "浏览器下载",
     "cancelDownload": "取消下载",
     "closeDownload": "关闭",
+    "contentCatalogError": "无法加载内容目录",
     "contentPathError": "正文地址无效",
     "contentReadError": "无法读取正文",
+    "contentRetry": "重试",
     "darkLabel": "深色模式",
     "docsLabel": "文档",
     "docsMenuLabel": "文档目录",
@@ -50,6 +59,7 @@
     "downloadTitle": "下载",
     "downloadUnavailable": "下载地址不可用",
     "downloadingLabel": "正在下载",
+    "emptyApps": "暂无应用",
     "emptyContent": "这里暂时没有内容",
     "emptyDownloads": "暂无可用安装包",
     "homeDescription": "",
